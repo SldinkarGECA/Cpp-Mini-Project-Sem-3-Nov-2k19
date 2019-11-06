@@ -1,0 +1,15 @@
+ABSTRACT The  main  objective  of  this  C++  project  on  Mess  Management  System  is  to  manage the  items  available  in  the  mess  and  their  prices  per  plate. 
+It  manages  all  the  information  about  items,  orders  and  their  prices. The  project  is  build  for  the  billing  purpose  at  the  customer  level  as  it  reduces  the time  for  the  billing  management  and  the  manual  work  for  the  managing  items  and orders. 
+It  tracks  all  the  details  about  the  Mess,  food  available  and  their  prices  as  well  as the  bill  generation.
+
+
+
+
+
+
+1.  INTRODUCTION 1.1  Introduction  to  Mess  Management  System: As  the  main  objective  of  this  C++  project  on  Mess  Management  System  is  to manage  the  items  available  in  the  mess  and  their  prices  per  plate  as  well  as generate  the  bill. CLASS  USED  IN  THE  PROGRAM: 1:  class  Mess: In  this  class  there  are Mess()  is  the  constructor, void  show() void  allItems() void  addNewItem() int  searchById(int) void  showQuantity(int) int  checkQuantity(int,int) void  addNewSale(int,int)    are  the  functions  used.           
+
+
+
+FUNCTIONS  USED  IN  THE  PROGRAM: a.  void  show(): This  function  prints  the  main  menu  which  includes   Buy an item   Menu Card   Add new Item   Exit. b.  void  allItems(): This  function  prints  the  menu  card  of  the  Mess. c.  void  addNewItem(): This  function  is  for  adding  new  item  in  the  cart. d.  int  searchById(int): This  is  used  to  search  that  item  is  present  or  not. e.  void  showQuantity(int): This  function  is  used  to  show  the  quantity  of  the  items  present. f.  int  checkQuantity(int,int): This  function  is  used  to  check  the  quantity  of  the  items  present. g.  void  addNewSale(int,int): This  function  calculates  the  total  bill  of  items  bought. 
+
